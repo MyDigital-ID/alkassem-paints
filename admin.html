@@ -1,0 +1,19 @@
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>لوحة التحكم – القاسم</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:"Segoe UI","Noto Sans Arabic",Tahoma,Arial,sans-serif;font-weight:600;background:#eef5f9;color:#17283a;padding-bottom:84px}
+header{background:#0f2d52;color:#fff;padding:12px 14px;display:flex;align-items:center;justify-content:space-between}header b{font-size:17px}
+button{font:inherit;border:0;border-radius:10px;padding:9px 14px;background:#1b5fa8;color:#fff;font-weight:700}button.g{background:#e3ebf2;color:#0f2d52}button.x{background:#fdecea;color:#c0392b;padding:7px 11px}
+#gp{background:#fff;padding:10px;display:flex;flex-wrap:wrap;gap:6px;border-bottom:1px solid #d6e3ed}#gp[hidden]{display:none}
+input,select{font:inherit;padding:9px;border:1.5px solid #d6e3ed;border-radius:10px;background:#fff;min-width:0}
+#tabs{display:flex;gap:6px;padding:10px;overflow-x:auto;position:sticky;top:0;background:#eef5f9;z-index:5}#tabs button{background:#fff;color:#0f2d52;border:1.5px solid #d6e3ed;white-space:nowrap}#tabs button.on{background:#0f2d52;color:#fff;border-color:#0f2d52}
+main{padding:0 10px}.cd{background:#fff;border:1px solid #d6e3ed;border-radius:14px;padding:12px;margin:10px 0;box-shadow:0 4px 12px rgba(15,45,82,.06)}
+.rw{display:flex;gap:6px;align-items:center;margin:6px 0;flex-wrap:wrap}.rw input[type=text],.rw input:not([type]){flex:1}.rw input[type=number]{width:96px}
+.th{width:64px;height:64px;border-radius:10px;object-fit:cover;background:#eef3f7;border:1px solid #d6e3ed}.fl{font-size:13px;color:#47607a}
+h4{margin:2px 0 6px;color:#0f2d52}.sw{width:46px;height:38px;padding:0;border-radius:8px}
+footer{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid #d6e3ed;padding:10px;display:flex;gap:10px;align-items:center;justify-content:space-between;box-shadow:0 -6px 20px rgba(15,45,82,.08)}footer button{padding:12px 22px}#m{font-size:13px;flex:1}
+details{margin:8px 0;border:1px solid #d6e3ed;border-radius:10px;padding:6px 10px;background:#f9fbfd}summary{font-weight:700;color:#0f2d52;cursor:pointer;padding:4px 0}.cd.in{background:#f4f8fb;box-shadow:none;margin:8px 0}.nm{background:#1b5fa8;color:#fff;border-radius:8px;min-width:30px;text-align:center;padding:6px 0}</style></head><body>
+<header><b>لوحة تحكم القاسم</b><button class="g" onclick="gp.hidden=!gp.hidden">ربط GitHub</button></header>
+<div id="gp" hidden><input id="r" placeholder="اسم المستخدم/اسم المستودع"><input id="t" type="password" placeholder="التوكن"><button onclick="ld()">تحميل</button></div>
+<div id="tabs"></div><main id="o"></main>
+<footer><span id="m"></span><button onclick="sv()">حفظ ونشر</button></footer>
+<script src="admin.js"></script></body></html>

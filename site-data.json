@@ -1,0 +1,1701 @@
+{
+ "shop": {
+  "wa": "201008070087",
+  "phone": "01008070087",
+  "land": "0000000",
+  "lat": 31.253429,
+  "lng": 29.977066,
+  "map": ""
+ },
+ "colors": [
+  {
+   "n": "أبيض",
+   "h": "#ffffff"
+  },
+  {
+   "n": "أوف وايت",
+   "h": "#f5f0e1"
+  },
+  {
+   "n": "بيج",
+   "h": "#d9c7a1"
+  },
+  {
+   "n": "رمادي",
+   "h": "#9e9e9e"
+  },
+  {
+   "n": "أسود",
+   "h": "#212121"
+  },
+  {
+   "n": "أحمر",
+   "h": "#d32f2f"
+  },
+  {
+   "n": "برتقالي",
+   "h": "#f57c00"
+  },
+  {
+   "n": "أصفر",
+   "h": "#fbc02d"
+  },
+  {
+   "n": "أخضر",
+   "h": "#388e3c"
+  },
+  {
+   "n": "سماوي",
+   "h": "#4fc3f7"
+  },
+  {
+   "n": "أزرق",
+   "h": "#1565c0"
+  },
+  {
+   "n": "بنفسجي",
+   "h": "#7b1fa2"
+  },
+  {
+   "n": "بني",
+   "h": "#6d4c41"
+  }
+ ],
+ "sections": [
+  {
+   "id": "paints",
+   "name": "الدهانات",
+   "tile": "assets/images/cat-paints.jpg",
+   "subs": [
+    {
+     "id": "p1",
+     "name": "عبوات الدهان",
+     "img": "https://images.unsplash.com/photo-1562184552-997c461abbe6?w=600&q=80",
+     "hidden": false,
+     "items": [
+      {
+       "id": "i1",
+       "name": "دهانات مائية",
+       "img": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "تمن",
+         "p": 20
+        },
+        {
+         "l": "ربع",
+         "p": 35
+        },
+        {
+         "l": "نص",
+         "p": 65
+        },
+        {
+         "l": "كيلو",
+         "p": 120
+        },
+        {
+         "l": "2 كيلو",
+         "p": 230
+        },
+        {
+         "l": "3 كيلو",
+         "p": 325
+        }
+       ],
+       "colors": true,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": true
+      },
+      {
+       "id": "i2",
+       "name": "دهانات زيتية",
+       "img": "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "تمن",
+         "p": 20
+        },
+        {
+         "l": "ربع",
+         "p": 45
+        },
+        {
+         "l": "نص",
+         "p": 80
+        },
+        {
+         "l": "كيلو",
+         "p": 150
+        },
+        {
+         "l": "2 كيلو",
+         "p": 285
+        },
+        {
+         "l": "3 كيلو",
+         "p": 405
+        }
+       ],
+       "colors": true,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": true
+      },
+      {
+       "id": "i3",
+       "name": "دهانات ديكورية",
+       "img": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "تمن",
+         "p": 30
+        },
+        {
+         "l": "ربع",
+         "p": 60
+        },
+        {
+         "l": "نص",
+         "p": 110
+        },
+        {
+         "l": "كيلو",
+         "p": 200
+        },
+        {
+         "l": "2 كيلو",
+         "p": 380
+        },
+        {
+         "l": "3 كيلو",
+         "p": 540
+        }
+       ],
+       "colors": true,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i4",
+       "name": "سيلر",
+       "img": "https://images.unsplash.com/photo-1595348020949-87cdfbb44174?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "تمن",
+         "p": 15
+        },
+        {
+         "l": "ربع",
+         "p": 30
+        },
+        {
+         "l": "نص",
+         "p": 55
+        },
+        {
+         "l": "كيلو",
+         "p": 100
+        },
+        {
+         "l": "2 كيلو",
+         "p": 190
+        },
+        {
+         "l": "3 كيلو",
+         "p": 270
+        }
+       ],
+       "colors": true,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i5",
+       "name": "برايمر",
+       "img": "https://images.unsplash.com/photo-1585933646706-79765bb951d9?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "تمن",
+         "p": 15
+        },
+        {
+         "l": "ربع",
+         "p": 35
+        },
+        {
+         "l": "نص",
+         "p": 60
+        },
+        {
+         "l": "كيلو",
+         "p": 110
+        },
+        {
+         "l": "2 كيلو",
+         "p": 210
+        },
+        {
+         "l": "3 كيلو",
+         "p": 295
+        }
+       ],
+       "colors": true,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i6",
+       "name": "ورنيش مائي",
+       "img": "https://images.unsplash.com/photo-1615529182904-14819c35db37?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "تمن",
+         "p": 20
+        },
+        {
+         "l": "ربع",
+         "p": 40
+        },
+        {
+         "l": "نص",
+         "p": 75
+        },
+        {
+         "l": "كيلو",
+         "p": 140
+        },
+        {
+         "l": "2 كيلو",
+         "p": 265
+        },
+        {
+         "l": "3 كيلو",
+         "p": 380
+        }
+       ],
+       "colors": true,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i7",
+       "name": "مركزات الألوان",
+       "img": "https://images.unsplash.com/photo-1502691876148-a84978e59af8?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "تمن",
+         "p": 10
+        },
+        {
+         "l": "ربع",
+         "p": 20
+        },
+        {
+         "l": "نص",
+         "p": 35
+        },
+        {
+         "l": "كيلو",
+         "p": 60
+        },
+        {
+         "l": "2 كيلو",
+         "p": 115
+        },
+        {
+         "l": "3 كيلو",
+         "p": 160
+        }
+       ],
+       "colors": true,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i8",
+       "name": "عازل للمياه",
+       "img": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "تمن",
+         "p": 25
+        },
+        {
+         "l": "ربع",
+         "p": 55
+        },
+        {
+         "l": "نص",
+         "p": 100
+        },
+        {
+         "l": "كيلو",
+         "p": 180
+        },
+        {
+         "l": "2 كيلو",
+         "p": 340
+        },
+        {
+         "l": "3 كيلو",
+         "p": 485
+        }
+       ],
+       "colors": true,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i9",
+       "name": "سوبر بلاتين",
+       "img": "https://images.unsplash.com/photo-1560416313-8c7a8830eb1d?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "تمن",
+         "p": 35
+        },
+        {
+         "l": "ربع",
+         "p": 65
+        },
+        {
+         "l": "نص",
+         "p": 120
+        },
+        {
+         "l": "كيلو",
+         "p": 220
+        },
+        {
+         "l": "2 كيلو",
+         "p": 420
+        },
+        {
+         "l": "3 كيلو",
+         "p": 595
+        }
+       ],
+       "colors": true,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i10",
+       "name": "جلتكس",
+       "img": "https://images.unsplash.com/photo-1579762715118-a6f1d4b934f1?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "تمن",
+         "p": 30
+        },
+        {
+         "l": "ربع",
+         "p": 55
+        },
+        {
+         "l": "نص",
+         "p": 105
+        },
+        {
+         "l": "كيلو",
+         "p": 190
+        },
+        {
+         "l": "2 كيلو",
+         "p": 360
+        },
+        {
+         "l": "3 كيلو",
+         "p": 515
+        }
+       ],
+       "colors": true,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i11",
+       "name": "أمبيانس كلر",
+       "img": "https://images.unsplash.com/photo-1550684848-fac1c5b4e853?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "تمن",
+         "p": 30
+        },
+        {
+         "l": "ربع",
+         "p": 65
+        },
+        {
+         "l": "نص",
+         "p": 115
+        },
+        {
+         "l": "كيلو",
+         "p": 210
+        },
+        {
+         "l": "2 كيلو",
+         "p": 400
+        },
+        {
+         "l": "3 كيلو",
+         "p": 565
+        }
+       ],
+       "colors": true,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i12",
+       "name": "ستورم شيلد",
+       "img": "https://images.unsplash.com/photo-1598301257982-0cf014dabbcd?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "تمن",
+         "p": 35
+        },
+        {
+         "l": "ربع",
+         "p": 70
+        },
+        {
+         "l": "نص",
+         "p": 125
+        },
+        {
+         "l": "كيلو",
+         "p": 230
+        },
+        {
+         "l": "2 كيلو",
+         "p": 435
+        },
+        {
+         "l": "3 كيلو",
+         "p": 620
+        }
+       ],
+       "colors": true,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i13",
+       "name": "وود جارد",
+       "img": "https://images.unsplash.com/photo-1516216628859-9bccecab13ca?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "تمن",
+         "p": 25
+        },
+        {
+         "l": "ربع",
+         "p": 50
+        },
+        {
+         "l": "نص",
+         "p": 95
+        },
+        {
+         "l": "كيلو",
+         "p": 170
+        },
+        {
+         "l": "2 كيلو",
+         "p": 325
+        },
+        {
+         "l": "3 كيلو",
+         "p": 460
+        }
+       ],
+       "colors": true,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      }
+     ]
+    },
+    {
+     "id": "p2",
+     "name": "أدوات الدهان",
+     "img": "assets/images/tools-painting.jpg",
+     "hidden": false,
+     "items": [
+      {
+       "id": "i17",
+       "name": "فرشاة دهان",
+       "img": "assets/images/brush-1.jpg",
+       "d": "",
+       "opts": [],
+       "colors": false,
+       "qrows": false,
+       "variants": [
+        {
+         "id": "v14",
+         "n": "فرشاة 1 بوصة",
+         "img": "assets/images/brush-1.jpg",
+         "d": "",
+         "p": 25,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "v15",
+         "n": "فرشاة 2 بوصة",
+         "img": "assets/images/brush-2.jpg",
+         "d": "",
+         "p": 35,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "v16",
+         "n": "فرشاة 3 بوصة",
+         "img": "assets/images/brush-3.jpg",
+         "d": "",
+         "p": 50,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        }
+       ],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i18",
+       "name": "رول دهان",
+       "img": "https://images.unsplash.com/photo-1595348020949-87cdfbb44174?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "صغير",
+         "p": 40
+        },
+        {
+         "l": "وسط",
+         "p": 60
+        },
+        {
+         "l": "كبير",
+         "p": 85
+        }
+       ],
+       "colors": false,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      }
+     ]
+    },
+    {
+     "id": "p3",
+     "name": "المعجون",
+     "img": "https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=600&q=80",
+     "hidden": false,
+     "items": [
+      {
+       "id": "i19",
+       "name": "معجون أكريليك",
+       "img": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "1 كيلو",
+         "p": 60
+        },
+        {
+         "l": "4 كيلو",
+         "p": 220
+        },
+        {
+         "l": "8 كيلو",
+         "p": 400
+        }
+       ],
+       "colors": false,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i20",
+       "name": "معجون زيتي",
+       "img": "https://images.unsplash.com/photo-1562184552-997c461abbe6?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "1 كيلو",
+         "p": 70
+        },
+        {
+         "l": "4 كيلو",
+         "p": 260
+        }
+       ],
+       "colors": false,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "power",
+   "name": "العدد الكهربائية",
+   "tile": "assets/images/cat-power.jpg",
+   "subs": [
+    {
+     "id": "e1",
+     "name": "الشنيور",
+     "img": "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=600&q=80",
+     "hidden": false,
+     "items": [
+      {
+       "id": "i26",
+       "name": "شنيور",
+       "img": "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=600&q=80",
+       "d": "",
+       "opts": [],
+       "colors": false,
+       "qrows": false,
+       "variants": [
+        {
+         "id": "v21",
+         "n": "شنيور كهربائي",
+         "img": "",
+         "d": "للأعمال العامة",
+         "p": 1800,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "v22",
+         "n": "شنيور شحن",
+         "img": "",
+         "d": "يعمل بالبطارية",
+         "p": 2200,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        }
+       ],
+       "acc": [
+        {
+         "id": "a23",
+         "n": "بنط 6 مم",
+         "img": "assets/images/drill-bit-6.jpg",
+         "d": "",
+         "p": 15,
+         "hidden": false
+        },
+        {
+         "id": "a24",
+         "n": "بنط 8 مم",
+         "img": "assets/images/drill-bit-8.jpg",
+         "d": "",
+         "p": 20,
+         "hidden": false
+        },
+        {
+         "id": "a25",
+         "n": "بنط 10 مم",
+         "img": "assets/images/drill-bit-10.jpg",
+         "d": "",
+         "p": 25,
+         "hidden": false
+        }
+       ],
+       "hidden": false,
+       "featured": true
+      }
+     ]
+    },
+    {
+     "id": "e2",
+     "name": "الصاروخ",
+     "img": "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=600&q=80",
+     "hidden": false,
+     "items": [
+      {
+       "id": "i31",
+       "name": "صاروخ",
+       "img": "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=600&q=80",
+       "d": "",
+       "opts": [],
+       "colors": false,
+       "qrows": false,
+       "variants": [
+        {
+         "id": "v27",
+         "n": "صاروخ كبير",
+         "img": "",
+         "d": "للأعمال الشاقة",
+         "p": 1900,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "v28",
+         "n": "صاروخ صغير",
+         "img": "",
+         "d": "للأعمال الخفيفة",
+         "p": 1200,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        }
+       ],
+       "acc": [
+        {
+         "id": "a29",
+         "n": "قرص قطع",
+         "img": "",
+         "d": "لقطع الحديد والخرسانة",
+         "p": 25,
+         "hidden": false
+        },
+        {
+         "id": "a30",
+         "n": "قرص تنعيم",
+         "img": "",
+         "d": "لتنعيم الأسطح",
+         "p": 30,
+         "hidden": false
+        }
+       ],
+       "hidden": false,
+       "featured": true
+      }
+     ]
+    },
+    {
+     "id": "e3",
+     "name": "الهيلتي",
+     "img": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80",
+     "hidden": false,
+     "items": [
+      {
+       "id": "i32",
+       "name": "هيلتي",
+       "img": "https://images.unsplash.com/photo-1621905252507-b35492cc74b4?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "الوحدة",
+         "p": 4500
+        }
+       ],
+       "colors": false,
+       "qrows": false,
+       "variants": [],
+       "acc": [
+        {
+         "id": "ak8",
+         "n": "بنطة هيلتي للحفر",
+         "img": "",
+         "d": "للحفر في الخرسانة",
+         "p": 45,
+         "hidden": false
+        },
+        {
+         "id": "ak9",
+         "n": "إزميل مدبب",
+         "img": "",
+         "d": "للتكسير",
+         "p": 60,
+         "hidden": false
+        },
+        {
+         "id": "ak10",
+         "n": "إزميل مسطح",
+         "img": "",
+         "d": "للتكسير والتشطيب",
+         "p": 60,
+         "hidden": false
+        }
+       ],
+       "hidden": false,
+       "featured": true
+      }
+     ]
+    },
+    {
+     "id": "e4",
+     "name": "البنط",
+     "img": "assets/images/drill-bits.jpg",
+     "hidden": false,
+     "items": [
+      {
+       "id": "i36",
+       "name": "بنط شنيور",
+       "img": "assets/images/drill-bits.jpg",
+       "d": "",
+       "opts": [],
+       "colors": false,
+       "qrows": false,
+       "variants": [
+        {
+         "id": "v33",
+         "n": "بنط 6 مم",
+         "img": "assets/images/drill-bit-6.jpg",
+         "d": "",
+         "p": 15,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "v34",
+         "n": "بنط 8 مم",
+         "img": "assets/images/drill-bit-8.jpg",
+         "d": "",
+         "p": 20,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "v35",
+         "n": "بنط 10 مم",
+         "img": "assets/images/drill-bit-10.jpg",
+         "d": "",
+         "p": 25,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        }
+       ],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plaster",
+   "name": "أدوات المحارة والمعجون",
+   "tile": "assets/images/cat-plaster.jpg",
+   "subs": [
+    {
+     "id": "m1",
+     "name": "سكاكين المحارة والمعجون",
+     "img": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80",
+     "hidden": false,
+     "items": [
+      {
+       "id": "i37",
+       "name": "سكينة محارة",
+       "img": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "الوحدة",
+         "p": 60
+        }
+       ],
+       "colors": false,
+       "qrows": false,
+       "variants": [
+        {
+         "id": "vk1",
+         "n": "مالج مدبب",
+         "img": "",
+         "d": "لتسوية المحارة",
+         "p": 60,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "vk2",
+         "n": "مالج مسنن",
+         "img": "",
+         "d": "لتركيب السيراميك",
+         "p": 70,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "vk3",
+         "n": "مالج مربع",
+         "img": "",
+         "d": "للتشطيب والتنعيم",
+         "p": 55,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        }
+       ],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i38",
+       "name": "سكينة معجون",
+       "img": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "الوحدة",
+         "p": 40
+        }
+       ],
+       "colors": false,
+       "qrows": false,
+       "variants": [
+        {
+         "id": "vk4",
+         "n": "سكينة معجون 2 بوصة",
+         "img": "",
+         "d": "",
+         "p": 25,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "vk5",
+         "n": "سكينة معجون 3 بوصة",
+         "img": "",
+         "d": "",
+         "p": 35,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "vk6",
+         "n": "سكينة معجون 4 بوصة",
+         "img": "",
+         "d": "",
+         "p": 45,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "vk7",
+         "n": "سكينة معجون 5 بوصة",
+         "img": "",
+         "d": "",
+         "p": 60,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        }
+       ],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      }
+     ]
+    },
+    {
+     "id": "m2",
+     "name": "فروخ الصنفرة",
+     "img": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=600&q=80",
+     "hidden": false,
+     "items": [
+      {
+       "id": "i39",
+       "name": "صنفرة خشنة",
+       "img": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "40",
+         "p": 8
+        },
+        {
+         "l": "60",
+         "p": 8
+        },
+        {
+         "l": "80",
+         "p": 9
+        },
+        {
+         "l": "100",
+         "p": 10
+        },
+        {
+         "l": "120",
+         "p": 10
+        }
+       ],
+       "colors": false,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i40",
+       "name": "صنفرة ناعمة",
+       "img": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "180",
+         "p": 10
+        },
+        {
+         "l": "220",
+         "p": 11
+        },
+        {
+         "l": "320",
+         "p": 12
+        },
+        {
+         "l": "400",
+         "p": 14
+        }
+       ],
+       "colors": false,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cement",
+   "name": "الأسمنت والجبس",
+   "tile": "assets/images/cat-cement.jpg",
+   "subs": [
+    {
+     "id": "c1",
+     "name": "الأسمنت والجبس",
+     "img": "assets/images/tile-cement.png",
+     "hidden": false,
+     "items": [
+      {
+       "id": "i41",
+       "name": "أسمنت رمادي",
+       "img": "assets/images/tile-cement.png",
+       "d": "",
+       "opts": [
+        {
+         "l": "شيكارة",
+         "p": 270
+        },
+        {
+         "l": "كيلو",
+         "p": 6
+        }
+       ],
+       "colors": false,
+       "qrows": true,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i42",
+       "name": "أسمنت أبيض",
+       "img": "assets/images/tile-cement.png",
+       "d": "",
+       "opts": [
+        {
+         "l": "شيكارة",
+         "p": 520
+        },
+        {
+         "l": "كيلو",
+         "p": 11
+        }
+       ],
+       "colors": false,
+       "qrows": true,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i43",
+       "name": "جبس",
+       "img": "assets/images/tile-cement.png",
+       "d": "",
+       "opts": [
+        {
+         "l": "شيكارة",
+         "p": 180
+        },
+        {
+         "l": "كيلو",
+         "p": 4
+        }
+       ],
+       "colors": false,
+       "qrows": true,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      }
+     ]
+    },
+    {
+     "id": "c2",
+     "name": "مواد إضافية",
+     "img": "assets/images/materials.jpg",
+     "hidden": false,
+     "items": [
+      {
+       "id": "i44",
+       "name": "غراء",
+       "img": "assets/images/glue.jpg",
+       "d": "",
+       "opts": [
+        {
+         "l": "كيلو",
+         "p": 25
+        },
+        {
+         "l": "عبوة",
+         "p": 60
+        }
+       ],
+       "colors": false,
+       "qrows": true,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i45",
+       "name": "سبيداج",
+       "img": "assets/images/spedaj.jpg",
+       "d": "",
+       "opts": [
+        {
+         "l": "شيكارة",
+         "p": 150
+        },
+        {
+         "l": "كيلو",
+         "p": 4
+        }
+       ],
+       "colors": false,
+       "qrows": true,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i46",
+       "name": "رمل",
+       "img": "assets/images/sand.jpg",
+       "d": "",
+       "opts": [
+        {
+         "l": "الوحدة",
+         "p": 200
+        }
+       ],
+       "colors": false,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hand",
+   "name": "العدد اليدوية",
+   "tile": "assets/images/cat-hand.jpg",
+   "subs": [
+    {
+     "id": "h1",
+     "name": "الشواكيش",
+     "img": "assets/images/hammers.jpg",
+     "hidden": false,
+     "items": [
+      {
+       "id": "i50",
+       "name": "شاكوش",
+       "img": "assets/images/hammers.jpg",
+       "d": "",
+       "opts": [],
+       "colors": false,
+       "qrows": false,
+       "variants": [
+        {
+         "id": "v47",
+         "n": "شاكوش مخلب",
+         "img": "assets/images/hammer-1.jpg",
+         "d": "",
+         "p": 150,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "v48",
+         "n": "شاكوش بمقبض خشبي",
+         "img": "assets/images/hammer-2.jpg",
+         "d": "",
+         "p": 180,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "v49",
+         "n": "شاكوش ثقيل",
+         "img": "assets/images/hammer-3.jpg",
+         "d": "",
+         "p": 250,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        }
+       ],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      }
+     ]
+    },
+    {
+     "id": "h2",
+     "name": "مفاتيح الفك والربط",
+     "img": "assets/images/wrenches.jpg",
+     "hidden": false,
+     "items": [
+      {
+       "id": "i56",
+       "name": "مفتاح رينج",
+       "img": "assets/images/wrenches.jpg",
+       "d": "",
+       "opts": [],
+       "colors": false,
+       "qrows": false,
+       "variants": [
+        {
+         "id": "v51",
+         "n": "مفتاح رينج 8",
+         "img": "assets/images/wrench-8.jpg",
+         "d": "",
+         "p": 15,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "v52",
+         "n": "مفتاح رينج 10",
+         "img": "assets/images/wrench-10.jpg",
+         "d": "",
+         "p": 18,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "v53",
+         "n": "مفتاح رينج 12",
+         "img": "assets/images/wrench-12.jpg",
+         "d": "",
+         "p": 20,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "v54",
+         "n": "مفتاح رينج 14",
+         "img": "assets/images/wrench-14.jpg",
+         "d": "",
+         "p": 25,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "v55",
+         "n": "مفتاح رينج 17",
+         "img": "assets/images/wrench-17.jpg",
+         "d": "",
+         "p": 30,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        }
+       ],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      }
+     ]
+    },
+    {
+     "id": "h3",
+     "name": "الزرادية والكماشات",
+     "img": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=600&q=80",
+     "hidden": false,
+     "items": [
+      {
+       "id": "i57",
+       "name": "زرادية",
+       "img": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "الوحدة",
+         "p": 110
+        }
+       ],
+       "colors": false,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i58",
+       "name": "كماشة",
+       "img": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "الوحدة",
+         "p": 120
+        }
+       ],
+       "colors": false,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      }
+     ]
+    },
+    {
+     "id": "h4",
+     "name": "السيليكون ومسدسه",
+     "img": "assets/images/tile-hand.png",
+     "hidden": false,
+     "items": [
+      {
+       "id": "i63",
+       "name": "سيليكون",
+       "img": "assets/images/tile-hand.png",
+       "d": "",
+       "opts": [],
+       "colors": false,
+       "qrows": false,
+       "variants": [
+        {
+         "id": "v59",
+         "n": "سيليكون أنابيب",
+         "img": "",
+         "d": "",
+         "p": 70,
+         "opts": [
+          {
+           "l": "شفاف",
+           "p": 70
+          },
+          {
+           "l": "أبيض",
+           "p": 70
+          },
+          {
+           "l": "أسود",
+           "p": 75
+          }
+         ],
+         "ol": "اللون",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "v60",
+         "n": "سيليكون علب",
+         "img": "",
+         "d": "",
+         "p": 90,
+         "opts": [
+          {
+           "l": "شفاف",
+           "p": 90
+          },
+          {
+           "l": "أبيض",
+           "p": 90
+          },
+          {
+           "l": "أسود",
+           "p": 95
+          }
+         ],
+         "ol": "اللون",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "v61",
+         "n": "سيليكون حراري",
+         "img": "",
+         "d": "يتحمل الحرارة العالية",
+         "p": 95,
+         "opts": [],
+         "ol": "",
+         "acc": [],
+         "hidden": false
+        },
+        {
+         "id": "v62",
+         "n": "سيليكون للأحواض",
+         "img": "",
+         "d": "مقاوم للماء والعفن",
+         "p": 85,
+         "opts": [
+          {
+           "l": "شفاف",
+           "p": 85
+          },
+          {
+           "l": "أبيض",
+           "p": 85
+          }
+         ],
+         "ol": "اللون",
+         "acc": [],
+         "hidden": false
+        }
+       ],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      },
+      {
+       "id": "i64",
+       "name": "مسدس سيليكون",
+       "img": "assets/images/tile-hand.png",
+       "d": "",
+       "opts": [
+        {
+         "l": "الوحدة",
+         "p": 120
+        }
+       ],
+       "colors": false,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      }
+     ]
+    },
+    {
+     "id": "h5",
+     "name": "ميزان ومتر",
+     "img": "https://images.unsplash.com/photo-1503686712810-38c2765e6c9c?w=600&q=80",
+     "hidden": false,
+     "items": [
+      {
+       "id": "i65",
+       "name": "ميزان مياه",
+       "img": "https://images.unsplash.com/photo-1503686712810-38c2765e6c9c?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "الوحدة",
+         "p": 90
+        }
+       ],
+       "colors": false,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": true
+      },
+      {
+       "id": "i66",
+       "name": "متر قياس",
+       "img": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80",
+       "d": "",
+       "opts": [
+        {
+         "l": "الوحدة",
+         "p": 60
+        }
+       ],
+       "colors": false,
+       "qrows": false,
+       "variants": [],
+       "acc": [],
+       "hidden": false,
+       "featured": false
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "offers": [
+  {
+   "id": "o1",
+   "img": "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?w=600&q=80",
+   "t": "عرض 1",
+   "d": "اكتب وصف العرض هنا",
+   "old": 450,
+   "p": 380,
+   "hidden": false
+  },
+  {
+   "id": "o2",
+   "img": "https://images.unsplash.com/photo-1504148455328-c376907d081c?w=600&q=80",
+   "t": "عرض 2",
+   "d": "اكتب وصف العرض هنا",
+   "old": 1200,
+   "p": 990,
+   "hidden": false
+  },
+  {
+   "id": "o3",
+   "img": "https://images.unsplash.com/photo-1562184552-997c461abbe6?w=600&q=80",
+   "t": "عرض 3",
+   "d": "اكتب وصف العرض هنا",
+   "old": 300,
+   "p": 240,
+   "hidden": false
+  },
+  {
+   "id": "o4",
+   "img": "https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?w=600&q=80",
+   "t": "عرض 4",
+   "d": "اكتب وصف العرض هنا",
+   "old": 850,
+   "p": 720,
+   "hidden": false
+  },
+  {
+   "id": "o5",
+   "img": "https://images.unsplash.com/photo-1572981779307-38b8cabb2407?w=600&q=80",
+   "t": "عرض 5",
+   "d": "اكتب وصف العرض هنا",
+   "old": 150,
+   "p": 120,
+   "hidden": false
+  }
+ ]
+}
