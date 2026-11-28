@@ -1,28 +1,28 @@
-/* لوحة تحكم القاسم: دخول بالتوكن، ثم تعديل site-data.json على GitHub */
+/* لوحة تحكم القاسم: دخول بكلمة السر عبر وسيط كلاودفلير، ثم تعديل site-data.json على GitHub */
 const $=s=>document.querySelector(s),LS=localStorage,OP=new Set();
-let D,sha,REPO,TOK,tab='p',si=0,bi=0,dirty=false;
+let D,sha,TOK,tab='p',si=0,bi=0,dirty=false;
 const h=(g,a,...c)=>{if(a==null)a={};else if(typeof a!='object'||a.nodeType||Array.isArray(a)){c.unshift(a);a={}}const e=document.createElement(g);for(const k in a){k.startsWith('on')?e[k]=a[k]:k=='class'?e.className=a[k]:e.setAttribute(k,a[k])}c.flat().forEach(x=>e.append(x&&x.nodeType?x:document.createTextNode(x??'')));return e};
 const uid=p=>p+Date.now().toString(36)+Math.random().toString(36).slice(2,5);
-const api=(p='',o={})=>fetch('https://api.github.com/repos/'+REPO+(p?'/'+p:''),{...o,headers:{Authorization:'Bearer '+TOK,Accept:'application/vnd.github+json',...(o.headers||{})}});
+const W='https://alkassem-paints-admin.download-my-app.workers.dev';
+const api=(p='',o={})=>fetch(W+'/'+p,{...o,headers:{'X-Admin-Password':TOK,...(o.headers||{})}});
 const b64=s=>btoa(unescape(encodeURIComponent(s))),unb=s=>decodeURIComponent(escape(atob(s.replace(/\n/g,''))));
 const say=s=>$('#sm').textContent=s,chg=()=>{dirty=true;$('#bs2').classList.add('dty')};
 onbeforeunload=e=>{if(dirty){e.preventDefault();return e.returnValue=''}};
 /* الدخول */
 function norm(d){d.colors.forEach((c,k)=>{c.id=c.id||'c'+(k+1);c.hidden=!!c.hidden});d.sections.forEach(s=>s.subs.forEach(b=>{b.hidden=!!b.hidden;b.items.forEach(i=>{i.hidden=!!i.hidden;i.featured=!!i.featured;i.opts=i.opts||[];i.variants=i.variants||[];i.acc=i.acc||[];i.d=i.d||'';i.variants.forEach(v=>{v.opts=v.opts||[];v.acc=v.acc||[];v.d=v.d||'';v.ol=v.ol||'';v.hidden=!!v.hidden;v.id=v.id||uid('v')});i.acc.forEach(a=>{a.hidden=!!a.hidden;a.id=a.id||uid('a')})})}));d.offers.forEach(f=>f.hidden=!!f.hidden);d.shop.map=d.shop.map||'';return d}
 async function load(){const x=await api('contents/site-data.json');if(!x.ok)throw'تعذر تحميل بيانات الموقع من المستودع';const j=await x.json();sha=j.sha;D=norm(JSON.parse(unb(j.content)));dirty=false;$('#bs2').classList.remove('dty')}
-async function login(auto){const r=$('#lr').value.trim(),t=$('#lt').value.trim(),M=$('#lm');M.textContent='';
- if(!/^[\w.-]+\/[\w.-]+$/.test(r))return M.textContent='اكتب المستودع بالشكل: اسم_المستخدم/اسم_المستودع';if(!t)return M.textContent='اكتب رمز الدخول (التوكن)';
- REPO=r;TOK=t;$('#lb').disabled=true;$('#lb').textContent='جارٍ التحقق...';
- try{const x=await api('');if(x.status==401)throw'رمز الدخول غير صحيح أو منتهي';if(x.status==404||x.status==403)throw'المستودع غير موجود أو الرمز لا يملك صلاحية الوصول إليه';if(!x.ok)throw'تعذر الاتصال بـ GitHub ('+x.status+')';
-  const j=await x.json();if(j.permissions&&!j.permissions.push)throw'الرمز لا يملك صلاحية الكتابة على هذا المستودع';
-  await load();$('#lk').checked?LS.qa=JSON.stringify({r,t}):LS.removeItem('qa');$('#lg').hidden=true;$('#app').hidden=false;draw()}
+async function login(auto){const t=$('#lt').value.trim(),M=$('#lm');M.textContent='';
+ if(!t)return M.textContent='اكتب كلمة السر';
+ TOK=t;$('#lb').disabled=true;$('#lb').textContent='جارٍ التحقق...';
+ try{const x=await api('auth');if(x.status==401)throw'كلمة السر غير صحيحة';if(!x.ok)throw'تعذر الاتصال بالخادم ('+x.status+')';
+  await load();$('#lk').checked?LS.qa=JSON.stringify({t}):LS.removeItem('qa');$('#lg').hidden=true;$('#app').hidden=false;draw()}
  catch(e){TOK=null;M.textContent=typeof e=='string'?e:'تعذر الاتصال، تحقق من الإنترنت'}
  $('#lb').disabled=false;$('#lb').textContent='🔓 دخول'}
 function logout(){if(dirty&&!confirm('توجد تعديلات غير محفوظة، تأكيد الخروج؟'))return;dirty=false;LS.removeItem('qa');location.reload()}
 $('#lb').onclick=()=>login();$('#lt').onkeydown=e=>{if(e.key=='Enter')login()};$('#ey').onclick=()=>{const i=$('#lt');i.type=i.type=='password'?'text':'password'};$('#bx').onclick=logout;
 $('#br').onclick=async()=>{if(dirty&&!confirm('سيتم فقد التعديلات غير المحفوظة، متابعة؟'))return;try{await load();draw();say('تم التحديث من GitHub')}catch(e){say(e)}};
 $('#bs').onclick=$('#bs2').onclick=save;
-try{const s=JSON.parse(LS.qa||'null');if(s){$('#lr').value=s.r;$('#lt').value=s.t;login(true)}}catch(e){}
+try{const s=JSON.parse(LS.qa||'null');if(s&&s.r)LS.removeItem('qa');else if(s&&s.t){$('#lt').value=s.t;login(true)}}catch(e){}
 /* الحفظ */
 function bad(){const L=[];D.sections.forEach(s=>s.subs.forEach(b=>b.items.forEach(i=>{if(i.colors&&!D.colors.some(c=>!c.hidden&&(!i.cset||i.cset.includes(c.id))))L.push(i.name||'(بدون اسم)')})));return L}
 async function save(){const L=bad();if(L.length)return say('اختر لونًا واحدًا على الأقل لـ: '+L.join('، '));say('جارٍ الحفظ...');
