@@ -1,19 +1,46 @@
-<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex"><title>لوحة التحكم – القاسم</title>
+<!DOCTYPE html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>لوحة تحكم القاسم</title>
 <style>
-*{box-sizing:border-box}body{margin:0;font-family:"Segoe UI","Noto Sans Arabic",Tahoma,Arial,sans-serif;font-weight:600;background:#eef5f9;color:#17283a;padding-bottom:84px}
-header{background:#0f2d52;color:#fff;padding:12px 14px;display:flex;align-items:center;justify-content:space-between}header b{font-size:17px}
-button{font:inherit;border:0;border-radius:10px;padding:9px 14px;background:#1b5fa8;color:#fff;font-weight:700}button.g{background:#e3ebf2;color:#0f2d52}button.x{background:#fdecea;color:#c0392b;padding:7px 11px}
-#gp{background:#fff;padding:10px;display:flex;flex-wrap:wrap;gap:6px;border-bottom:1px solid #d6e3ed}#gp[hidden]{display:none}
-input,select{font:inherit;padding:9px;border:1.5px solid #d6e3ed;border-radius:10px;background:#fff;min-width:0}
-#tabs{display:flex;gap:6px;padding:10px;overflow-x:auto;position:sticky;top:0;background:#eef5f9;z-index:5}#tabs button{background:#fff;color:#0f2d52;border:1.5px solid #d6e3ed;white-space:nowrap}#tabs button.on{background:#0f2d52;color:#fff;border-color:#0f2d52}
-main{padding:0 10px}.cd{background:#fff;border:1px solid #d6e3ed;border-radius:14px;padding:12px;margin:10px 0;box-shadow:0 4px 12px rgba(15,45,82,.06)}
-.rw{display:flex;gap:6px;align-items:center;margin:6px 0;flex-wrap:wrap}.rw input[type=text],.rw input:not([type]){flex:1}.rw input[type=number]{width:96px}
-.th{width:64px;height:64px;border-radius:10px;object-fit:cover;background:#eef3f7;border:1px solid #d6e3ed}.fl{font-size:13px;color:#47607a}
-h4{margin:2px 0 6px;color:#0f2d52}.sw{width:46px;height:38px;padding:0;border-radius:8px}
-footer{position:fixed;left:0;right:0;bottom:0;background:#fff;border-top:1px solid #d6e3ed;padding:10px;display:flex;gap:10px;align-items:center;justify-content:space-between;box-shadow:0 -6px 20px rgba(15,45,82,.08)}footer button{padding:12px 22px}#m{font-size:13px;flex:1}
-details{margin:8px 0;border:1px solid #d6e3ed;border-radius:10px;padding:6px 10px;background:#f9fbfd}summary{font-weight:700;color:#0f2d52;cursor:pointer;padding:4px 0}.cd.in{background:#f4f8fb;box-shadow:none;margin:8px 0}.nm{background:#1b5fa8;color:#fff;border-radius:8px;min-width:30px;text-align:center;padding:6px 0}</style></head><body>
-<header><b>لوحة تحكم القاسم</b><button class="g" onclick="gp.hidden=!gp.hidden">ربط GitHub</button></header>
-<div id="gp" hidden><input id="r" placeholder="اسم المستخدم/اسم المستودع"><input id="t" type="password" placeholder="التوكن"><button onclick="ld()">تحميل</button></div>
-<div id="tabs"></div><main id="o"></main>
-<footer><span id="m"></span><button onclick="sv()">حفظ ونشر</button></footer>
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+:root{--bg:#121417;--cd:#1b1f24;--ln:rgba(255,154,46,.38);--cu:#ff9a2e;--cu2:#e0791a;--tx:#f2f4f6;--mu:#9aa5b1;--in:#0d0f12}
+body{margin:0;font-family:"Segoe UI","Noto Kufi Arabic","Noto Sans Arabic",Tahoma,Arial,sans-serif;font-weight:600;color:var(--tx);background:radial-gradient(circle at 100% 0,rgba(255,140,30,.22),transparent 45%) fixed,radial-gradient(circle at 0 100%,rgba(255,140,30,.16),transparent 45%) fixed,#121417;min-height:100vh}
+button,input,select{font:inherit;color:inherit}[hidden]{display:none!important}
+input[type=text],input[type=password],input[type=number],select{width:100%;padding:12px 14px;border:1.5px solid var(--ln);border-radius:14px;background:var(--in);color:var(--tx);min-width:0}
+input::placeholder{color:#6f7a86}input:focus,select:focus{outline:2px solid var(--cu);border-color:transparent}
+.b{border:0;border-radius:14px;padding:12px 16px;background:linear-gradient(160deg,#ffae4d,#ff8a14);color:#1b1206;font-weight:800;box-shadow:0 6px 18px rgba(255,138,20,.35)}.b:active{filter:brightness(.92)}
+.g{border:1.5px solid var(--ln);border-radius:14px;padding:11px 14px;background:rgba(255,255,255,.04);color:var(--tx);font-weight:700}.g:active{background:rgba(255,255,255,.1)}
+.x{border:1.5px solid rgba(255,90,90,.45);border-radius:12px;padding:9px 12px;background:rgba(255,90,90,.1);color:#ff8c8c;font-weight:700}
+/* الدخول */
+#lg{min-height:100vh;display:grid;place-items:center;padding:18px}.lw{width:100%;max-width:440px}
+.lm{display:block;margin:0 auto -78px;height:250px;position:relative;z-index:1;filter:drop-shadow(0 10px 24px rgba(255,138,20,.45))}
+.lc{background:linear-gradient(180deg,#1d2127,#14171b);border:2px solid var(--cu);border-radius:26px;padding:86px 18px 20px;box-shadow:0 0 44px rgba(255,138,20,.22)}
+.pl{width:fit-content;margin:0 auto 18px;padding:10px 30px;background:linear-gradient(160deg,#ffae4d,#ff8a14);color:#1b1206;font-weight:800;font-size:18px;transform:skewX(-10deg)}.pl span{display:inline-block;transform:skewX(10deg)}
+.lc input{margin:7px 0}.pw{position:relative}.pw button{position:absolute;left:8px;top:50%;transform:translateY(-50%);border:0;background:none;font-size:20px;padding:6px}
+.ck{display:flex;align-items:center;gap:9px;color:var(--mu);margin:8px 2px}.ck input{width:20px;height:20px;accent-color:var(--cu);margin:0}
+#lm{color:#ff8c8c;min-height:22px;margin:4px 2px;font-weight:700}.lc .b{width:100%;padding:15px;font-size:17px;margin-top:6px}
+/* اللوحة */
+#app{padding:12px 12px 120px;max-width:760px;margin:0 auto}
+.hd{background:linear-gradient(180deg,#1d2127,#14171b);border:2px solid var(--cu);border-radius:24px;padding:16px;box-shadow:0 0 36px rgba(255,138,20,.2)}
+.hd h1{margin:0 0 12px;font-size:21px;color:var(--cu);display:flex;align-items:center;gap:10px}.hr{display:flex;gap:8px}.hr button{flex:1;position:relative}
+.dty::after{content:"";position:absolute;top:6px;left:8px;width:10px;height:10px;border-radius:50%;background:#ff4d4d;box-shadow:0 0 8px #ff4d4d}
+#tabs{display:flex;gap:8px;overflow-x:auto;padding:12px 2px;position:sticky;top:0;z-index:5;scrollbar-width:none;background:linear-gradient(var(--bg) 70%,transparent)}#tabs::-webkit-scrollbar{display:none}
+#tabs button{flex:none;border:1.5px solid var(--ln);border-radius:30px;padding:10px 18px;background:rgba(255,255,255,.04);color:var(--tx);font-weight:700}#tabs button.on{background:linear-gradient(160deg,#ffae4d,#ff8a14);color:#1b1206;border-color:transparent}
+.cd{background:linear-gradient(180deg,#1f2429,#171a1e);border:1.5px solid var(--ln);border-radius:20px;padding:14px;margin:12px 0;box-shadow:0 8px 24px rgba(0,0,0,.35)}.cd.in{background:rgba(255,255,255,.035);box-shadow:none;margin:10px 0}.cd.warn{border-color:#ff5a5a;box-shadow:0 0 0 2px rgba(255,90,90,.3)}
+.cd h4{margin:0 0 10px;color:var(--cu)}.rw{display:flex;gap:8px;align-items:center;margin:8px 0;flex-wrap:wrap}.rw>input[type=text],.rw>input[type=number],.rw>select{flex:1;width:auto;min-width:110px}.rw>input[type=number]{max-width:120px}
+.th{width:62px;height:62px;border-radius:14px;object-fit:cover;background:var(--in);border:1.5px solid var(--ln);flex:none}
+details{margin:10px 0;border:1.5px dashed var(--ln);border-radius:16px;padding:8px 12px;background:rgba(255,255,255,.025)}summary{font-weight:800;color:var(--cu);cursor:pointer;padding:6px 0}
+.nm{background:var(--cu);color:#1b1206;border-radius:10px;min-width:32px;text-align:center;padding:7px 0;font-weight:800}.hint{color:var(--mu);font-size:13.5px;line-height:1.7;margin:2px 0 8px}
+.fl{color:var(--mu);font-size:14px;display:flex;align-items:center;gap:6px}.fl input[type=file]{max-width:190px;color:var(--mu);font-size:13px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}.chip{display:flex;align-items:center;gap:8px;border:1.5px solid rgba(255,154,46,.2);border-radius:30px;padding:8px 14px 8px 12px;background:rgba(255,255,255,.04);color:var(--mu);font-weight:700;opacity:.55}.chip i{width:20px;height:20px;border-radius:50%;border:2px solid rgba(255,255,255,.5)}
+.chip.on{background:linear-gradient(160deg,#ffae4d,#ff8a14);color:#1b1206;border-color:transparent;opacity:1}.chip.gh{text-decoration:line-through}
+.cg{display:grid;grid-template-columns:1fr 1fr;gap:10px}.cc{border:1.5px solid var(--ln);border-radius:18px;padding:10px;background:rgba(255,255,255,.04)}.cc.hid{opacity:.5}.cc.hid input[type=text]{text-decoration:line-through}
+.cc input[type=color]{width:100%;height:46px;padding:0;border:0;border-radius:12px;background:none}.cc input[type=text]{margin:8px 0;padding:9px 10px}.cc .rw{margin:0}.cc .rw button{flex:1;padding:8px 4px}
+.sv{position:fixed;left:0;right:0;bottom:0;z-index:20;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:linear-gradient(180deg,transparent,#0b0d0f 38%)}.sv>div{max-width:760px;margin:auto;background:linear-gradient(180deg,#1d2127,#14171b);border:2px solid var(--cu);border-radius:22px;padding:10px}
+.sv .b{width:100%;padding:15px;font-size:17px}#sm{min-height:20px;text-align:center;font-size:14px;margin:0 0 6px;color:var(--mu)}
+</style></head><body>
+<div id="lg"><div class="lw"><img class="lm" src="assets/images/mascot.png" alt=""><div class="lc"><div class="pl"><span>🎛️ لوحة تحكم القاسم</span></div>
+<input id="lr" type="text" placeholder="المستودع: اسم_المستخدم/اسم_المستودع" value="MyDigital-ID/alkassem-paints" autocomplete="off" dir="ltr" style="text-align:right">
+<div class="pw"><input id="lt" type="password" placeholder="أدخل رمز الدخول (GitHub Token)" autocomplete="current-password" dir="ltr" style="text-align:right;padding-left:48px"><button type="button" id="ey" aria-label="إظهار">👁️</button></div>
+<label class="ck"><input id="lk" type="checkbox" checked><span>تذكّرني على هذا الجهاز</span></label><div id="lm"></div><button class="b" id="lb">🔓 دخول</button></div></div></div>
+<div id="app" hidden><div class="hd"><h1>🎛️ لوحة تحكم القاسم</h1><div class="hr"><button class="g" id="bx">🔑 خروج</button><button class="g" id="bs2">💾 حفظ</button><button class="g" id="br">↻ تحديث</button></div></div><div id="tabs"></div><main id="o"></main>
+<div class="sv"><div><div id="sm"></div><button class="b" id="bs">💾 حفظ كل التعديلات</button></div></div></div>
 <script src="admin.js"></script></body></html>
